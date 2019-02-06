@@ -1,0 +1,14 @@
+.AddPoint {
+    position: fixed;
+    z-index: 200;
+    width: 350px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0;
+    background-color: #aaa;
+    top: 30%;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+}

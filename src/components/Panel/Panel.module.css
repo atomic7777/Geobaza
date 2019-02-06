@@ -1,0 +1,9 @@
+.Panel {
+    display: inline-block;
+}
+
+.PanelBackground {
+    background-color: #ccd9ff;
+    padding: 10px;
+
+}

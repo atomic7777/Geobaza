@@ -1,0 +1,27 @@
+.Button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    outline: none;
+    background-color: #6666ff   ;
+    border: none;
+    color: white;
+    width: 150px;
+}
+
+.Enabled:hover{
+    background-color: #751aff   ;
+
+}
+
+.Disabled{
+    background-color: #f0f0f5 ;
+}
+
+
+.Enabled{
+    background-color: #6666ff  ;
+}
+
+

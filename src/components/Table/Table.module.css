@@ -1,0 +1,83 @@
+.Table {
+
+    vertical-align:top;    
+    border-collapse: collapse;
+    border: 0px solid black;
+    margin: 30px 10px 0 20px;
+    
+  
+ 
+}
+
+
+.TableHeader {
+    background-color: #0088cc;
+    color: #ddd;
+   
+}
+
+.Table tr, td{
+    padding: 1px 13px;
+    border: 1px solid  #0077b3;
+    text-align: center;
+  }
+
+@media (min-width:501px) {
+    .Table {
+        display: inline-block;
+        margin-right: 50px;
+        min-width: 45%;
+    }
+
+    .Table td:first-child {
+        min-width: 50px;
+    }
+    
+    .Table td:last-child {
+        min-width: 150px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .Table {
+        margin: 0px;
+        width: 100% !important;
+        /*font-size: 0.75rem;*/
+      /*  max-height: 200px;*/
+    }
+    
+    .Table tr, td{
+        padding: 6px 3px;
+        border: 1px solid  #0077b3;
+        text-align: center;
+      }
+
+    .Table td:first-child {
+        min-width: 0px;
+    }
+    
+    .Table td:last-child {
+        min-width: 45px;
+        display: none;
+    }
+
+}
+
+
+
+.Table td{
+    border: 0px solid  #ccc;
+    
+  } 
+
+
+  
+.Selected{
+    background-color: #66ccff;
+}
+
+.NotSelected{
+    background-color: #e6f7ff;
+}
+

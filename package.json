@@ -1,0 +1,25 @@
+{
+  "name": "geobaza",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "custom-react-scripts": "0.2.2",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-bootstrap-sweetalert": "^4.4.1",
+    "react-dom": "^16.4.1",
+    "react-dropzone": "^7.0.1",
+    "react-moment": "^0.8.3",
+    "react-newline-to-break": "^1.0.6",
+    "react-table": "^6.8.6",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

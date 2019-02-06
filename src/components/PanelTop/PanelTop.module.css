@@ -1,0 +1,12 @@
+
+.PanelBackground {
+    background-color: #e2d095;
+    padding: 10px;
+
+}
+
+
+.Items {
+    display: flex;
+    justify-content: space-between;
+  }
